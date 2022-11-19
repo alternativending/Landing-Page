@@ -47,10 +47,9 @@ a {
     flex-direction: column;
     width: 500px;
     color: white;
-    
 }
 
-button {
+.button1 {
     width: 100px;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -63,4 +62,131 @@ h1 {
     font-size: 48px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: -5px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.sub-mid-one {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.t1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-two {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    margin-left: -10px;
+    margin-right: -8px;
+    padding: 100px;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+h4 {
+    margin-left: 500px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight:lighter;
+    max-width: 700px;
+}
+
+.boxtitle {
+    
+    margin-right: -500px;
+    color: white;
+}
+
+.mid-three {
+    background-color: rgb(50, 124, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    padding: 30px;
+    align-self: center;
+}
+
+.button2 {
+    width: 100px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+    background-color: rgb(50, 124, 235);
+    color: white;
+    border-color: white;
+}
+
+.boxtitle {
+    font-size: large;
+    font-weight: bold;
+}
+
+.box {
+    color: white;
+    margin-top: -20px;
+}
+
+.sub-mid-three {
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 15px;
+    margin-bottom: -10px;
 }
